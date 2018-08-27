@@ -1,3 +1,5 @@
+/* global cuid */
+
 const Item = (function() {
   const validateName = function(name) {
     if (!name) {
